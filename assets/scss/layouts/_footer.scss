@@ -1,0 +1,125 @@
+.footer {
+    background: #efefef;
+
+    .content-wrapper {
+        padding: 85px;
+
+        h6 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #181818;
+            padding: 25px 0;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #181818;
+            padding-bottom: 12px;
+        }
+    }
+
+    .nav-links {
+        padding-top: 40px;
+
+        h5 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #222222;
+            padding-bottom: 35px;
+            letter-spacing: 2px;
+        }
+
+
+        ul {
+            padding: 0 !important;
+
+            li {
+                a {
+                    color: #717171;
+                    display: inline-block;
+                    font-weight: 400;
+                    font-family: 'Roboto', sans-serif;
+                    margin: 8px 0;
+
+                    // &:hover {}
+                }
+            }
+        }
+    }
+
+    .social-links {
+        padding: 50px 0;
+
+        ul {
+            padding: 0;
+            display: flex;
+            align-items: center;
+
+            li {
+                &:not(:last-child) {
+                    margin-right: 22px;
+                }
+
+                a {
+                    color: #363636;
+
+                    .fab {
+                        font-size: 16px;
+                    }
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+
+    .paylinks {
+        @media(min-width: 992px) {
+            display: flex;
+            align-items: center;
+        }
+
+
+        p {
+            color: #717171;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+        }
+
+        ul {
+            padding: 0;
+            display: flex;
+            align-items: center;
+
+            @media(min-width: 992px) {
+                margin-left: 50px;
+            }
+
+            li {
+                &:not(:last-child) {
+                    margin-right: 22px;
+                }
+
+                a {
+                    color: #363636;
+
+                    .fab {
+                        font-size: 16px;
+                    }
+
+                    &:hover {
+                        color: #000;
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.newsletter {
+    border-top: 1px solid #eeeeee;
+    padding: 100px 0;
+
+    .content-wrapper {
+        max-width: 620px;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+
+        h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 35px;
+            color: #343434;
+            padding-bottom: 25px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #2a2a2a;
+            font-family: 'Roboto', sans-serif;
+            padding-bottom: 40px;
+        }
+
+        input {
+            background: #f7f7f9;
+            border-radius: 0;
+        }
+
+        button {
+            color: #fff;
+            background: #222222;
+            border-radius: 0;
+        }
+    }
+}
